@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@snyk/protect@^1.1209.0":
+  version "1.1209.0"
+  resolved "https://registry.yarnpkg.com/@snyk/protect/-/protect-1.1209.0.tgz#9e938362cf684576ead289916274cf8bd5f4e0ce"
+  integrity sha512-E370Imyh7tnkgaYJdjL+Skb7thgcPcSiIISbUhA6/ZtjKGzGLveLXGAjID9nQlizoO+P+D3UfssnE16GJZjWPw==
+
 abbrev@1:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.0.tgz#d0554c2256636e2f56e7c2e5ad183f859428d81f"
@@ -1730,6 +1735,15 @@ ember-export-application-global@1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/ember-export-application-global/-/ember-export-application-global-1.0.5.tgz#73bd641b19e3474190f717c9b504617511506bea"
 
+ember-lodash@0.0.10:
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/ember-lodash/-/ember-lodash-0.0.10.tgz#edf132aa54a983a87543a093615df03892c9a15c"
+  integrity sha512-8kl4usHraXI+/V4aByhepj5XbdDkH59vChLozod5XQmnmgAQV6f0YMruckC8JuEYk2iU5DDUSrGdfr3moLY27Q==
+  dependencies:
+    broccoli-merge-trees "^1.1.1"
+    ember-cli-babel "^5.1.5"
+    lodash-es "^3.10.0"
+
 ember-qunit@^0.4.18:
   version "0.4.24"
   resolved "https://registry.yarnpkg.com/ember-qunit/-/ember-qunit-0.4.24.tgz#b54cf6688c442d07eacea47c3285879cdd7c2163"
@@ -2944,6 +2958,11 @@ loader.js@4.2.3:
 lockfile@~1.0.1:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/lockfile/-/lockfile-1.0.3.tgz#2638fc39a0331e9cac1a04b71799931c9c50df79"
+
+lodash-es@^3.10.0:
+  version "3.10.1"
+  resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-3.10.1.tgz#a1c85d9829c9009004339dc3846dbabb46cf4e19"
+  integrity sha512-rBJfRKjK2GgYmj6pS243GNGtYEp8dpg+FBkEz06YVuNyujP4T20Dfu9LyoDSq6PGkNgEcUAToppLuH7GmAUnNw==
 
 lodash-node@^2.4.1:
   version "2.4.1"
